@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bella Kitchen+Bar</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- Custom CSS -->
+  <style>
+    
+    .non-veg-icon {
+        color: red;
+    }
+    /* Add custom styles here */
+  </style>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+    <h1 class="text-center my-5">Bella Kitchen+Bar</h1>
+    <h3 class="text-left ">Pizza Menu</h3>
+        <div class="form-group">
+            <label for="filterSelect">Filter:</label>
+            <select class="form-control" id="filterSelect">
+                <option value="all">All</option>
+                <option value="Veg">Vegeterian</option>
+                <option value="Non-veg">Non-Vegeterian</option>
+            </select>
+        </div>
+
+    <div class="row" id="pizzas">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="./images/sample_pizza.jpeg" class="card-img-top" alt="Pizza Image">
+          <div class="card-body">
+            <h5 class="card-title">Margherita</h5>
+            <p class="card-text">Classic tomato sauce, mozzarella, basil.</p>
+            <p class="card-text">Price: $10.99</p>
+            <button class="btn btn-primary btn-block">Translate to Konkani</button>
+          </div>
+        </div>
+      </div>
+      <!-- Add more pizza cards here -->
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script src="index.js"></script>
+  <script>
+    // Add custom JavaScript here
+  </script>
+</body>
+</html>

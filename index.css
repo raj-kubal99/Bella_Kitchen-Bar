@@ -1,0 +1,19 @@
+.Veg {
+    top: 2px;
+    right: 2px;
+    background-color: rgba(0,255,0,1);
+    color: black;
+    padding: 1px 1px;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.Non-veg {
+    top: 2px;
+    right: 2px;
+    background-color: rgba(255,0,0,0.7);
+    color: black;
+    padding: 1px 1px;
+    font-weight: bold;
+    font-size: smaller;
+}
